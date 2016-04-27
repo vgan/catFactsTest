@@ -1,15 +1,16 @@
-# 🤖 catFactsTest 🐱
-Now you can add your own Cat Facts Reverse Turing Test to your Bots. <i>Mee-wow!</i><br/>
+#🤖 catFactsTest 🐱
+Now you can add your own Cat Facts Reverse Turing Test to your Bots. *Mee-wow!*<br/>
 - If a user asks your bot some variation of "Are you a bot?" or "Are you a human?" A brief (mostly one sided) Cat Facts conversation will begin at one point prompting the user for verification they are human...
 - It tracks state of conversation per username.
 - Strictly or entertainment purposes only, not for use in <i>actually</i> identifying humans!
 - Does not actually deliver hourly/weekly/yearly Cat Facts<br/>
 
-Working example can be seen here: <a href="https://twitter.com/pixelswami">@pixelswami</a>
+Working example can be seen here: [@pixelswami](https://twitter.com/pixelswami)
 
 Usage Notes:<br/>
   Import the function to your script.<br/>
 `from catfacts import catFactsTest`
+
 ```
 catfact = catFactsTest(mention,username,USERNAME)
         if catfact != "nope":
@@ -23,4 +24,4 @@ catfact = catFactsTest(mention,username,USERNAME)
 2. `username` - `screen_name` from mention.<br/>
 3. `USERNAME` - `@screen_name` of the bot.<br/>
     
-This is an homage to <a href="https://www.reddit.com/r/funny/comments/owx3v/so_my_little_cousin_posted_on_fb_that_he_was">a post</a> on reddit via a botALLY slack discussion.  
+This is an homage to [a post](https://www.reddit.com/r/funny/comments/owx3v/so_my_little_cousin_posted_on_fb_that_he_was) on reddit via a botALLY slack discussion.  
