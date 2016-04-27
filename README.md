@@ -12,8 +12,8 @@ Usage Notes:</br>
                         s = api.update_status(status="@"+ username + " " + catfact ,in_reply_to_status_id=mentionid)
   
   The function requires three paramenters:</br>
-    1. mention - this is the text of the mention to look at.
-    2. username - `screen_name` from mention.
-    3. USERNAME - `@screen_name` of the bot.
+    1. `mention` - this is the text of the mention to look at.</br>
+    2. `username` - `screen_name` from mention.</br>
+    3. `USERNAME` - `@screen_name` of the bot.</br>
     
 This is an homage to <a href="https://www.reddit.com/r/funny/comments/owx3v/so_my_little_cousin_posted_on_fb_that_he_was">a post</a> on reddit via a botALLY slack discussion.
