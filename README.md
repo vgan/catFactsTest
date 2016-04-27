@@ -13,7 +13,7 @@ catfact = catFactsTest(mention,username,USERNAME)
         if catfact != "nope":
                 s = api.update_status(status="@"+ username + " " + catfact ,in_reply_to_status_id=mentionid)
         else:
-            # Do other stuff your bot normally does here
+                # Do other stuff your bot normally does here
 ```
   
   The function requires three paramenters:<br/>
