@@ -1,13 +1,15 @@
 # 🤖 catFactsTest 🐱
-Cat Facts Reverse Turing Test for Bots.<br/>
+Now you can add your own Cat Facts Reverse Turing Test to your Bots. <i>Mee-wow!</i><br/>
+- If someone asks some variation of "Are you a bot?" or "Are you a human?" A brief (mostly one sided) Cat Facts conversation will begin.
+- It tracks state of conversation per username.
 - Strictly or entertainment purposes only, not for use in <i>actually</i> identifying humans!
 - Does not actually deliver hourly/weekly/yearly Cat Facts<br/>
 
-Working example can be seen here: <a href="https://twitter.com/dad_libs">@dad_libs</a>
+Working example can be seen here: <a href="https://twitter.com/pixelswami">@pixelswami</a>
 
 Usage Notes:<br/>
   Add library to your script.<br/>
-`from catfacts import *`
+`from catfacts import catFactsTest`
 ```
 catfact = catFactsTest(mention,username,USERNAME)
         if catfact != "nope":
