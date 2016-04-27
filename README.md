@@ -6,12 +6,13 @@ Cat Facts Reverse Turing Test for Bots.<br/>
 Working example can be seen here: <a href="https://twitter.com/dad_libs">@dad_libs</a>
 
 Usage Notes:<br/>
-  Add library to your script.
-    `from catfacts import *`
-
-  ```catfact = catFactsTest(mention,username,USERNAME)
-            if catfact != "nope":
-                    s = api.update_status(status="@"+ username + " " + catfact ,in_reply_to_status_id=mentionid)```
+  Add library to your script.<br/>
+`from catfacts import *`
+```
+catfact = catFactsTest(mention,username,USERNAME)
+        if catfact != "nope":
+                s = api.update_status(status="@"+ username + " " + catfact ,in_reply_to_status_id=mentionid)
+```
   
   The function requires three paramenters:<br/>
 1. `mention` - this is the text of the mention to look at.<br/>
