@@ -2,7 +2,6 @@
 Now you can add your own Cat Facts Reverse Turing Test to your Bots. *Mee-wow!*<br/>
 - If a user asks your bot some variation of "Are you a bot?" or "Are you a human?" A brief (mostly one sided) Cat Facts conversation will begin at one point prompting the user for verification they are human...
 - It tracks state of conversation per username.
-- Strictly or entertainment purposes only, not for use in *actually* identifying humans!
 - Does not actually deliver hourly/weekly/yearly Cat Facts<br/>
 
 Working example can be seen here: [@pixelswami](https://twitter.com/pixelswami)
